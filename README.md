@@ -16,6 +16,7 @@ Technologies/frameworks involved:
     Front end: Bootstrap 4 and a very little JQuery
 
 NOTE: package.json might contain unused dependencies - this is due to the app being currently under development
+
 NOTE2: file keys.js not uploaded for obvious security reasons
 
 thoughts is up and running on heroku, check it out at: http://thoughtsbeta.herokuapp.com/
