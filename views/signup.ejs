@@ -1,0 +1,22 @@
+<% include ./partials/header %>
+
+<div class="container">
+    <form>
+        <div class="form-group">
+            <p>Sign up feature hasn't been implemented yet. <a href="/auth/login">Please log in using Google+</a></p>
+            <label>Email address</label>
+            <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" disabled>
+            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" class="form-control" name="username" placeholder="Username" disabled>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="Password" disabled>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up!</button>
+    </form>
+    <a href="/auth/login">One of us already? Log in now!</a>
+</div>

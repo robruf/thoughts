@@ -1,0 +1,26 @@
+<% include ./partials/header %>
+
+<div class="container">
+<div class="list-group" id="listgroup">
+    <% thoughts.forEach((thought) => { %>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1"><%= thought.author %></h5>
+                <small><%= thought.created.toDateString() %></small>
+            </div>
+            <p class="mb-1"><%= thought.thought %></p>
+        </a>
+    <% }) %>
+    <button id="showMore" class="btn btn-block">Show more</button>
+</div>
+</div>
+
+<script>
+    $('#showMore').click(function() {
+        $('#listgroup a:hidden').slice(0, 5).slideDown();
+     });
+</script>
+
+<% include ./partials/footer %>
+
+    
