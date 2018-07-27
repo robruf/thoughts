@@ -1,3 +1,8 @@
+#search{
+    display:block;
+    text-align:center;
+}
+
 #listgroup a:nth-child(n+6){
     display: none;
 }
